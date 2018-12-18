@@ -147,6 +147,7 @@ export const types: { [name: string]: TokenType } = {
     binop: 11,
     rightAssociative: true,
   }),
+  compositeHash: new BinopTokenType("##", 12),
 };
 
 export const keywords = {
